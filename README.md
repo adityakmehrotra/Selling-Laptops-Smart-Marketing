@@ -10,8 +10,4 @@ You should create your classifier in a main.py file, which will be the only thin
 
 You can collaborate with your team on the entire project (no individual part!). As usual, you cannot work with anybody outside of your team and can only get help from 320 staff.
 
-## Conclusion
-
-
-
 ### Last Updated: 04/12/2024
