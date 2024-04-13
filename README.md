@@ -29,7 +29,34 @@ Ensure you have Python 3 installed, along with the necessary libraries. You can 
   ```bash
   pip install numpy pandas matplotlib geopandas rasterio scikit-learn
   ```
+## Installation
+Clone this repository to your local machine:
 
+  ```bash
+  git clone https://github.com/your-username/your-repository.git
+  cd your-repository
+  ```
 
+## Usage
+Run the main Python script to execute the prediction model:
+
+  ```bash
+  python main.py
+  ```
+
+This script will load the data, perform preprocessing, train the logistic regression model, and output predictions on whether users will be interested in the promotional email.
+
+## Data Description
+The dataset includes user demographics (age, badge levels), past purchase amounts, and engagement metrics (like total_visits). These features are critical for predicting user interest accurately.
+
+## Model Details
+Logistic Regression: Chosen for its efficacy in binary classification tasks.
+
+Preprocessing: Categorical variables are one-hot encoded, while numerical variables are standardized.
+
+Train-Test Split: The data is split into training and testing sets to ensure the model's performance is validated independently.
+
+### Contributing
+Contributions are welcome. Please fork this repository, make your changes, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
 ### Last Updated: 04/12/2024
