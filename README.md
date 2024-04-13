@@ -1,13 +1,35 @@
 # Selling-Laptops-Smart-Marketing
 
-## Overview
+## Project Overview
 
-You are the owner of a retail website. You're planning on running a promotion on a laptop and you want to send emails out about it. However, you only want to send it to people that may be interested in it so as not to annoy people that aren't interested. You're looking to use your data about who clicked on similar emails in 2020 to help you predict which users may be interested in the promotion.
+This Python project aims to predict user interest in a promotional email campaign for a laptop sale on a retail website. By analyzing historical user interaction data with similar promotions, the project utilizes a Logistic Regression model to classify users likely to be interested in the campaign. The goal is to increase campaign effectiveness by targeting the right audience and achieving high user engagement.
 
-You can decide what features to consider and how to create your classifier. Your grade will correspond to the accuracy of your predictions. 50% accuracy and below will give a grade of 0%, whereas accuracy of 75% and above will give a grade of 100%; any accuracy between 50 and 75 will be rescaled to a 0-100% grade. Some models can get better than 90% accuracy, so we encourage you to keep improving your model beyond what is necessary for full credit if you have time.
+## Features
 
-You should create your classifier in a main.py file, which will be the only thing you'll submit.
+- **Data Integration**: Combines user demographic and behavioral data to form a comprehensive dataset.
+- **Custom Preprocessing**: Implements a column transformer to handle categorical and numerical data.
+- **Model Training**: Utilizes a logistic regression within a pipeline that includes preprocessing steps.
+- **Predictive Analysis**: Predicts user interest based on their profiles and past interactions.
 
-You can collaborate with your team on the entire project (no individual part!). As usual, you cannot work with anybody outside of your team and can only get help from 320 staff.
+## Technology Stack
+
+- Python 3
+- Pandas for data manipulation
+- GeoPandas for geographic data operations (if applicable)
+- Matplotlib and Rasterio for data visualization and raster data handling
+- Scikit-learn for machine learning modeling and evaluations
+- SQLite for database interactions
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have Python 3 installed, along with the necessary libraries. You can install the required libraries using the following command:
+
+  ```bash
+  pip install numpy pandas matplotlib geopandas rasterio scikit-learn
+  ```
+
+
 
 ### Last Updated: 04/12/2024
