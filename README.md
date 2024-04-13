@@ -24,11 +24,21 @@ This Python project aims to predict user interest in a promotional email campaig
 
 ### Prerequisites
 
-Ensure you have Python 3 installed, along with the necessary libraries. You can install the required libraries using the following command:
+Ensure you have Python 3 installed, along with the necessary libraries:
+
+- numpy
+- pandas
+- matplotlib
+- geopandas
+- rasterio
+- scikit-learn
+
+You can install the required libraries using the following command:
 
   ```bash
   pip install numpy pandas matplotlib geopandas rasterio scikit-learn
   ```
+
 ## Installation
 Clone this repository to your local machine:
 
